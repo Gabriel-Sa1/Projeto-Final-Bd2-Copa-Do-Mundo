@@ -1,9 +1,9 @@
 # Normalização
 
----
+-
 
 COPA(idt_copa, num_ano, país_sede(FK da Tabela País), idt_melhor_jogador_copa(FK da Tabela Copa), idt_chuteira_de_ouro(FK da Tabela Jogador), idt_luva_de_ouro(FK da Tabela Jogador), idt_melhor_jogador_jovem(FK da Tabela Jogador), idt_podio_primeiro_lugar(FK da Tabela Seleção), idt_podio_segundo_lugar(FK da Tabela Seleção), idt_podio_terceiro_lugar(FK da Tabela Seleção)), num_max_convocados
--
+
 COPA_SEDE(idt_copa(PK)(FK da Tabela Copa), idt_pais(PK)(FK da Tabela PAÍS), vlr_investimento_bilhoes, vlr_faturamento_economico)
 
 SELEÇÃO (idt_selecao, idt_pais(FK da Tabela País),  nme_técnico,  nme_federação, num_cortes)
